@@ -37,7 +37,7 @@ tr:nth-child(even) {
 
       <h2 id="user-story" style="background-color: #239CCC; color: white;">How to Create a User Story</h2>
   <p><b>Step 1: Select a backlog</b> <br>
-    If you are creating a user story for the Mobile apps, then create a user story in the Mobile backlog.
+    If you want to create a user story for the Mobile apps, then create a user story in the Mobile backlog.
 
     <ul>
       <li><a href="https://dev.azure.com/naturessunshine/synergy-r2/_backlogs/backlog/synergy-r2%20Team/Stories" target="_blank">R2 backlog</a> <br></li>
@@ -66,7 +66,7 @@ tr:nth-child(even) {
     </p>
 
     <p><b>Step 4: Write your User Story</b><br>
-      Let's write a good user story. Here is the format of the user story.<br><br>
+      Let's write a good user story. <b>You need to write a user story from end-user's </b> Here is the format of the user story.<br><br>
 
       <span style="font-size: 20px;">As a <mark>user role</mark>, I want <mark>some goal</mark> so that <mark>some reason</mark> .</span> <br><br>
 
@@ -180,45 +180,98 @@ tr:nth-child(even) {
       <h2 id="bug-ticket" style="background-color: #CC293D; color: white;">How to Create a Bug Ticket</h2>
 
       <p><b>Step 1: Select a backlog</b> <br>
-        <a href="https://dev.azure.com/naturessunshine/synergy-r2/_backlogs/backlog/synergy-r2%20Team/Stories" target="_blank">R2 backlog</a> <br>
-      <a href="https://dev.azure.com/naturessunshine/synergy-ww/_backlogs/backlog/synergy-ww%20Team/Stories" target="_blank">Web & Services backlog</a><br>
-      <a href="https://dev.azure.com/naturessunshine/synergy-mobile/_backlogs/backlog/Mobile%20Team/Stories" target="_blank">Mobile backlog</a><br>
-      <a href="https://dev.azure.com/naturessunshine/synergy-kiosk/_backlogs/backlog/synergy-kiosk%20Team/Stories" target="_blank">Kiosk backlog</a><br>
-      <a href="https://dev.azure.com/naturessunshine/synergy-pickup-center/_backlogs/backlog/synergy-pickup-center%20Team/Stories" target="_blank">Pickup Center Apps Backlog</a>
+        If you want to create a bug ticket for the mobile apps, then go to the Mobile backlog.
+        <ul>
+          <li><a href="https://dev.azure.com/naturessunshine/synergy-r2/_backlogs/backlog/synergy-r2%20Team/Stories" target="_blank">R2 backlog</a> <br></li>
+          <li><a href="https://dev.azure.com/naturessunshine/synergy-ww/_backlogs/backlog/synergy-ww%20Team/Stories" target="_blank">Web & Services backlog</a><br></li>
+          <li><a href="https://dev.azure.com/naturessunshine/synergy-mobile/_backlogs/backlog/Mobile%20Team/Stories" target="_blank">Mobile backlog</a><br></li>
+          <li><a href="https://dev.azure.com/naturessunshine/synergy-kiosk/_backlogs/backlog/synergy-kiosk%20Team/Stories" target="_blank">Kiosk backlog</a><br></li>
+          <li><a href="https://dev.azure.com/naturessunshine/synergy-pickup-center/_backlogs/backlog/synergy-pickup-center%20Team/Stories" target="_blank">Pickup Center Apps Backlog</a></li>
+        </ul>
       </p>
 
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
+
+      <p><b>Step 2: Write your title</b><br>
+      Your title should serve as a concise summary of what the bug is.
+      </p>
+
+      <p><b>Step 3: Write your bug summary</b></p>
+
+      <p><b>Step 4: Write how to reproduce the issue</b><br>
+      Here is an examle:<br>
+    <ol>
+      <li>Open the mobile app</li>
+      <li>Log in with ID# XXXXXX</li>
+      <li>Click on Y</li>
+      <li>Then you will see an error message</li>
+    </ol></p>
+
+      <p><b>Step 5: Write Expected Result</b><br>
+      What should happen when you trigger the call-to-action?</p>
+
+      <p><b>Step 6: Actual Result</b><br>
+      Here is the result of the bug. Does the applicadtion crash? Does nothing happened at all? Is an error displayed?</p>
+
+      <p><b>Step 7: Attach screenshots</b></p>
+
+      <p><b>Step 8: Add Severity</b><br>
+        <table>
+          <tr>
+            <th>Critical</th>
+            <th>The bug must be resolved as soon as possible because the defect is affecting the functionality of the product in a catastrophic way. The functionality cannnot be used until the repair has been done.</th>
+          </tr>
+          <tr>
+            <th>High</th>
+            <th>the bug must be resolved as soon as possible. It can wait until a new build or version is created.</th>
+          </tr>
+          <tr>
+            <th>Medium</th>
+            <th>The defect is an irritant which should be repaired, but repair can be deferred until after more serious defect have been fixed.</th>
+          </tr>
+          <tr>
+            <th>Low</th>
+            <th>Minor bug, that will be fixed during the periods where the time and other priorities allow to do so.</th>
+          </tr>
+          </table>
+      </p>
+
+      <p><b>Step 9: Add Tags</b><br>
+        <table>
+          <tr>
+            <th>Country</th>
+            <th>Tag</th>
+            <th>Country</th>
+            <th>Tag</th>
+          </tr>
+          <tr>
+            <th>Hong Kong</th>
+            <th>HK</th>
+            <th>Indonesia</th>
+            <th>ID</th>
+          </tr>
+          <tr>
+            <th>Japan</th>
+            <th>JP</th>
+            <th>Korea</th>
+            <th>KR</th>
+          </tr>
+          <tr>
+            <th>Malaysia</th>
+            <th>MY</th>
+            <th>Singapore</th>
+            <th>SG</th>
+          </tr>
+          <tr>
+            <th>Thailand</th>
+            <th>TH</th>
+            <th>Taiwan</th>
+            <th>TW</th>
+          </tr>
+          </table><br></p>
+
+      <p><b>Step 10: Hit Save</b></p>
+
+      
       
 
     </div>
