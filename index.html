@@ -22,7 +22,7 @@ tr:nth-child(even) {
   </head>
   <body>
     <a name="top"></a>
-    <p id="demo"></p>
+    
 
     <div>
 
@@ -308,6 +308,8 @@ tr:nth-child(even) {
 
       <p><a href="#top">Back to top of page</a></p>
 
+      <p id="todayDate"></p>
+
 
       
       
@@ -318,30 +320,8 @@ tr:nth-child(even) {
 
 <script>
 
-var day;
-switch (new Date().getDay()) {
-  case 0:
-    day = "Sunday";
-    break;
-  case 1:
-    day = "Monday";
-    break;
-  case 2:
-    day = "Tuesday";
-    break;
-  case 3:
-    day = "Wednesday";
-    break;
-  case 4:
-    day = "Thursday";
-    break;
-  case 5:
-    day = "Friday";
-    break;
-  case  6:
-    day = "Saturday";
-}
-document.getElementById("demo").innerHTML = "Today is " + day;
+var d = new Date();
+document.getElementById("todayDate").innerHTML = d;
 
 </script>
 
