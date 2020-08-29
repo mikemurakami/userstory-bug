@@ -22,6 +22,8 @@ tr:nth-child(even) {
   </head>
   <body>
     <a name="top"></a>
+    <p id="demo"></p>
+
     <div>
 
       <a href="https://mikemurakami.github.io/userstory-bug/"><h1>Welcome to the User Story and Bug template page</h1></a>
@@ -314,7 +316,24 @@ tr:nth-child(even) {
 
     
 
+<script>
 
+var text;
+switch (new Date().getDay()) {
+  case 4:
+  case 5:
+    text = "Soon it is Weekend";
+    break;
+  case 0:
+  case 6:
+    text = "It is Weekend";
+    break;
+  default:
+    text = "Looking forward to the Weekend";
+}
+document.getElementById("demo").innerHTML = text;
+
+</script>
 
 
     
